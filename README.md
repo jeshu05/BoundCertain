@@ -2,7 +2,7 @@
 
 **Boundary-Aware Semantic Segmentation with Predictive Uncertainty Estimation**
 
-BoundaryUncertainSeg is a deep learning project for pixel-level scene understanding in street images. It combines boundary-aware feature fusion with uncertainty estimation to improve scene segmentation and help identify potentially unreliable predictions.
+BoundCertain is a deep learning project for pixel-level scene understanding in street images. It combines boundary-aware feature fusion with uncertainty estimation to improve scene segmentation and help identify potentially unreliable predictions.
 
 Kaggle notebook : https://www.kaggle.com/code/jesvanthsabarishvk/certainsemseg
 
@@ -68,3 +68,4 @@ The project explores whether explicit boundary supervision and predictive uncert
 - Evaluate performance separately for each semantic class.
 - Investigate boundary accuracy and uncertainty calibration.
 - Benchmark inference latency and memory usage.
+- Extend evaluation to the BDD100K dataset (https://www.kaggle.com/datasets/solesensei/solesensei_bdd100k) to assess the model's generalization across diverse driving environments, lighting conditions, and weather in real-world street-scene segmentation.
